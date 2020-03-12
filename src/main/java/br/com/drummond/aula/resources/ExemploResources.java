@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ExemploResources {
 	
-	// vide https://spring.io/quickstart
+	// veja exemplo em https://spring.io/quickstart
 	
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "alunos") String name) {
